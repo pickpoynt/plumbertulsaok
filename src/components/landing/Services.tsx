@@ -1,31 +1,4 @@
-import { Shield, Wind, Zap, FlaskConical, Search, ClipboardCheck, Activity, Gauge, Microscope } from "lucide-react";
-
-const services = [
-  {
-    icon: Wind,
-    title: "Molecular Neutralization",
-    description: "Industrial hydroxyl generators disrupt the chemical bonds of odor-causing molecules, ensuring a complete environmental reset.",
-    link: "#musty-odor-info"
-  },
-  {
-    icon: Microscope,
-    title: "Source Mapping",
-    description: "Utilizing deep-penetrating infrared moisture mapping to identify hidden microbial colonies in basements and historic walls.",
-    link: "#musty-odor-info"
-  },
-  {
-    icon: Gauge,
-    title: "Vapor Barrier Control",
-    description: "Eliminating the moisture source of 'old house' smells through surgical-grade crawlspace and basement containment.",
-    link: "#musty-odor-info"
-  },
-  {
-    icon: Shield,
-    title: "Atmospheric Sealing",
-    description: "Applying odor-blocking antimicrobial barriers to structural wood to prevent future off-gassing and spore activity.",
-    link: "#musty-odor-info"
-  }
-];
+import { ArrowRight, Drill, Zap, Camera, Waves } from "lucide-react";
 
 const Services = () => {
   return (
@@ -33,38 +6,38 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Foundation <span className="text-indigo-600">Restoration Science</span>
+            Comprehensive <span className="text-indigo-600">Sewer Solutions</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Haddon Heights foundations require specialized moisture management. We don't just clear crawl space mold; we engineer environments where it cannot return.
+            Briarcliff Manor homeowners trust us for advanced sewer diagnostics and repair. We use technology to solve problems where others use shovels.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {[
             {
-              icon: Wind,
-              title: "Crawl Space Removal",
-              description: "Surgical extraction of toxic mold from structural floor joists and sub-flooring in Haddon Heights homes.",
-              link: "#musty-odor-info"
+              icon: Zap,
+              title: "Cured-in-Place (CIPP)",
+              description: "We create a new, seamless pipe inside your existing damaged one. It's stronger than PVC, joint-free, and resistant to future root intrusion.",
+              link: "#trenchless-info"
             },
             {
-              icon: Microscope,
-              title: "Slab Decontamination",
-              description: "Chemical neutralization of embedded mold spores on concrete floors and block foundation walls using industrial biocides.",
-              link: "#musty-odor-info"
+              icon: Drill, // Using Drill as a proxy for bursting/force
+              title: "Pipe Bursting",
+              description: "For severely collapsed lines, we pull a new pipe through the old one, fracturing the damaged pipe outward while simultaneously laying the new line.",
+              link: "#trenchless-info"
             },
             {
-              icon: Gauge,
-              title: "Encapsulation Pro",
-              description: "Installation of high-durability 20-mil vapor barriers to isolate your crawl space from the earth's natural moisture cycle.",
-              link: "#musty-odor-info"
+              icon: Camera,
+              title: "HD Video Inspection",
+              description: "Don't guess. Our high-definition sewer cameras travel through your lines to pinpoint the exact location and nature of the blockage or break.",
+              link: "#trenchless-info"
             },
             {
-              icon: Shield,
-              title: "HEPA Air Scrubbing",
-              description: "Continuous air filtration during remediation to ensure mold spores never reach the living areas of your Haddon Heights home.",
-              link: "#musty-odor-info"
+              icon: Waves,
+              title: "Hydro Jetting",
+              description: "We use high-pressure water streams to obliterate tree roots, grease buildup, and scale, restoring your pipe's original flow capacity.",
+              link: "#trenchless-info"
             }
           ].map((service, index) => (
             <div
@@ -76,9 +49,9 @@ const Services = () => {
                   <service.icon className="w-8 h-8 text-indigo-600 group-hover:text-white transition-colors" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-indigo-700">{service.title}</h3>
-                <p className="text-slate-600 leading-relaxed font-medium mb-4">{service.description}</p>
-                <div className="flex items-center gap-2 text-indigo-600 font-bold text-sm uppercase tracking-wider">
-                  View Protocol <ClipboardCheck className="w-4 h-4" />
+                <p className="text-slate-600 leading-relaxed font-medium mb-6">{service.description}</p>
+                <div className="flex items-center gap-2 text-indigo-600 font-bold text-sm uppercase tracking-wider group-hover:gap-3 transition-all">
+                  Learn More <ArrowRight className="w-4 h-4" />
                 </div>
               </a>
             </div>

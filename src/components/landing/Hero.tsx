@@ -5,23 +5,25 @@ interface HeroProps {
   title?: React.ReactNode;
   subtitle?: string;
   image?: string;
+  overlayImage?: string;
 }
 
 const Hero = ({
   title = "Crawl space mold removal Haddon Heights",
   subtitle = "Is moisture trapped beneath your home? We specialize in scientific crawl space mold extraction, high-durability vapor barriers, and environmental resets for Haddon Heights residences.",
-  image = "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80"
+  image = "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80",
+  overlayImage = "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&q=80"
 }: HeroProps) => {
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       {/* Background Image with Unique Overlay */}
       <div className="absolute inset-0 z-0">
-        <img src={image} alt="Crawl space mold removal Haddon Heights" className="w-full h-full object-cover brightness-[0.4]" />
+        <img src={image} alt="Hero Background" className="w-full h-full object-cover brightness-[0.4]" />
         {/* UNIQUE OVERLAY IMAGE: Using a deep liquid/water texture overlay to represent sub-floor moisture issues */}
-        <div className="absolute inset-0 opacity-15 mix-blend-screen overflow-hidden">
+        <div className="absolute inset-0 opacity-20 mix-blend-screen overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1518173946687-a4c8a98039f5?auto=format&fit=crop&q=80"
-            alt="Atmospheric Particles Overlay"
+            src={overlayImage}
+            alt="Atmospheric Overlay"
             className="w-full h-full object-cover scale-150 animate-pulse transition-all duration-[14000ms]"
           />
         </div>

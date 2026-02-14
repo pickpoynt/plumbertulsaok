@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import MustyOdorRemovalInfo from "@/components/landing/MustyOdorRemovalInfo";
+import TrenchlessSewerInfo from "@/components/landing/TrenchlessSewerInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,38 +15,38 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Crawl space mold removal Haddon Heights</title>
-        <meta name="description" content="Crawl space mold removal Haddon Heights. Expert crawl space mold remediation and moisture control in Haddon Heights, NJ. Professional mold cleanup. Call (380) 266-0944!" />
-        <meta name="keywords" content="Crawl space mold removal Haddon Heights, crawl space mold remediation Haddon Heights NJ, Camden County mold removal, foundation mold cleanup" />
-        <link rel="canonical" href="https://haddon-heights-crawlspace-mold.com/" />
+        <title>Trenchless sewer repair Briarcliff Manor</title>
+        <meta name="description" content="Trenchless sewer repair Briarcliff Manor. Expert no-dig sewer line replacement and pipe relining in Briarcliff Manor, NY. 50-year warranty. Call (877) 792-1410!" />
+        <meta name="keywords" content="Trenchless sewer repair Briarcliff Manor, sewer line repair Briarcliff Manor NY, trenchless pipe lining Westchester, sewer camera inspection" />
+        <link rel="canonical" href="https://briarcliff-manor-trenchless-sewer.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Haddon Heights Crawl Space Pros",
-            "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80",
-            "telephone": "+1-380-266-0944",
+            "name": "Briarcliff Manor Trenchless Sewer Pros",
+            "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2669&auto=format&fit=crop",
+            "telephone": "+1-877-792-1410",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Haddon Heights",
-              "addressRegion": "NJ",
-              "postalCode": "08035",
+              "addressLocality": "Briarcliff Manor",
+              "addressRegion": "NY",
+              "postalCode": "10510",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "39.8804",
-              "longitude": "-75.0660"
+              "latitude": "41.1465",
+              "longitude": "-73.8443"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Haddon Heights, Camden County, NJ"
+              "name": "Briarcliff Manor, Westchester County, NY"
             },
-            "priceRange": "$$",
-            "description": "Professional crawl space mold removal in Haddon Heights, NJ. We specialize in deep-extraction mold remediation, vapor barrier installation, and structural dry-out for Haddon Heights foundations."
+            "priceRange": "$$$",
+            "description": "Professional trenchless sewer repair in Briarcliff Manor, NY. We specialize in cured-in-place pipe lining (CIPP), pipe bursting, and drain cleaning."
           })}
         </script>
 
@@ -55,46 +55,46 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Crawl Space Mold Removal",
+            "serviceType": "Trenchless Sewer Repair",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Haddon Heights Crawl Space Pros",
-              "telephone": "+1-380-266-0944"
+              "name": "Briarcliff Manor Trenchless Sewer Pros",
+              "telephone": "+1-877-792-1410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Haddon Heights, NJ"
+              "name": "Briarcliff Manor, NY"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Crawl Space Restoration Services",
+              "name": "Sewer Repair Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Biological Mold Extraction"
+                    "name": "Cured-in-Place Pipe Lining"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Vapor Barrier Encapsulation"
+                    "name": "Pipe Bursting Replacement"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "HEPA Air Scrubbing"
+                    "name": "Sewer Camera Inspection"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Sub-Floor Moisture Control"
+                    "name": "Hydro Jetting Drain Cleaning"
                   }
                 }
               ]
@@ -103,11 +103,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Crawl space mold removal Haddon Heights" />
-        <meta property="og:description" content="Expert crawl space mold removal in Haddon Heights, NJ. Permanent remediation for foundation moisture and mold issues." />
+        <meta property="og:title" content="Trenchless sewer repair Briarcliff Manor" />
+        <meta property="og:description" content="Expert trenchless sewer repair in Briarcliff Manor. Save your lawn and driveway with our no-dig technology." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://haddon-heights-crawlspace-mold.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://briarcliff-manor-trenchless-sewer.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2669&auto=format&fit=crop" />
       </Helmet>
 
       <Header />
@@ -115,16 +115,17 @@ const Index = () => {
         <Hero
           title={
             <>
-              Crawl space mold removal Haddon Heights
-              <span className="block text-indigo-400 mt-2">HADDON HEIGHTS CRAWL SPACE PROS: FOUNDATION CARE</span>
+              Trenchless sewer repair Briarcliff Manor
+              <span className="block text-blue-400 mt-2 text-2xl md:text-3xl">Briarcliff Manor Trenchless Sewer Pros</span>
             </>
           }
-          subtitle="Is moisture trapped beneath your home? We specialize in scientific crawl space mold extraction, high-durability vapor barriers, and environmental resets for Haddon Heights residences."
-          image="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80"
+          subtitle="Stop the dig. We fix sewer lines in Briarcliff Manor without destroying your yard. Stronger, faster, and guaranteed for 50 years."
+          image="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2669&auto=format&fit=crop"
+          overlayImage="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&q=80"
         />
         <Services />
         <WhyUs />
-        <MustyOdorRemovalInfo />
+        <TrenchlessSewerInfo />
         <FAQ />
         <Contact />
         <RandomLinks />
